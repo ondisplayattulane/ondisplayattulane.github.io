@@ -1,14 +1,14 @@
-##############################################
-# START YOUR CONFIGURATION HERE! For more info, visit https://digitalarcplatform.github.io/documentation/docs/publishSite/
-#---------------------
-# THEME. The following 3 lines don't need to change
-#---------------------
-remote_theme: kalanicraig/digitalarcplatform@v1.0.1 #updated 23 Jul 2025
-repository: 'digitalarcplatform/demo' # change this to your repository name
-
 
 ##############################################
-# WHAT IS ALL THIS STUFF? SOME VOCABULARY.
+# START YOUR CONFIGURATION HERE! For more info, visit https://digitalarcplatform.kalanicraig.com/quickstart
+#---------------------
+# THEME. Leave Lines 4-6 alone.
+#---------------------
+remote_theme: kalanicraig/digitalarcplatform@v1.0.1
+repository: 'ondisplayattulane.github.io' # change this to your repository name
+
+##############################################
+# WHAT IS ALL THIS STUFF?
 #---------------------
 # _config is easy. Most web sites have configuration files.
 # .yml means YAML. It's the data that runs your site.
@@ -43,47 +43,37 @@ repository: 'digitalarcplatform/demo' # change this to your repository name
 #---------------------
 
 # Title of your website
-title: "A Sample DigitalArc Collection Site"
+title: "On Display: A Twenty-First Century Salon des Refusés"
 
 # Subtitle of your website. Leave blank if you want to.
-subtitle: "An exhibit platform for collective storytelling & community archives"
+subtitle: "On Display: A 21st-Century Salon des Refusés revisits the concept of rejection and expands upon it, challenging what art “deserves” to be exhibited."
 
 # A longer description of your site (max 150 words). Helps search engines find you.
-description: "DigitalArc Community Archiving Template - Demo Site"
+description: "On Display: A 21st-Century Salon des Refusés revisits the concept of rejection and expands upon it, challenging what art “deserves” to be exhibited."
 
 # These credits show up in the includes/_footer.html
 # Main author of the website.
-author: "DigitalArc"
-authorname : "DigitalArc: An exhibit platform for collective storyelling & community archives"
-sitelogo: site_logo.jpg
-placeholderimg: placeholder.png
+author: "ClaudiaGonzález-Díaz"
+authorname : "Claudia González-Díaz"
+
+# To change the photo on your homepage, open the assets folder in your Github repo, then open the img folder. Upload a photo there. Add only the name of the photo and its extension here. E.g. "alternate_logo.png")
+sitelogo: "site_logo.png"
+placeholderimg: "placeholder.png"
 
 # What year did you start up this community project?
-sitedate : 2024
+sitedate : 2025
 
 # Other community social media. Leave blank if you don't have these.
-email : "digitalarcplatform [at] gmail.com"
-website : 
-twitter : 
-github : 
-facebook : 
-instagram : 
-
-##############################################
-# COPYRIGHT PAGE
-#---------------------
-# If your collection is part of a larger site, remove the "#" before the copyright_page placeholder and paste in your about-us or contact link.
-# EXAMPLE: copyright_page: "https://yoursite.com/aboutus"
-# Otherwise, make sure you update the copyright.md file in the "pages" folder
-# copyright_page: 
+email : "ondisplaytulane@gmail.com"
+website : ""
+twitter : ""
+github : ""
+facebook : ""
+instagram : ""
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
 # When you finish the setup assistant, it will give you a Measurement ID: G-ABCDEFGHIJ
 google_g4_analytics_id: 
-
-# If you need to know how many people visit your site, go to https://analytics.google.com/
-# When you finish the setup assistant, it will give you a Measurement ID: G-ABCDEFGHIJ
-google_g4_analytics_id: G-LVREG1Y1DT
 
 ##############################################
 # FONTS AND COLORS
@@ -97,22 +87,27 @@ google_g4_analytics_id: G-LVREG1Y1DT
 #fontchoice: baloo # A clean sans-serif font with a playful rounded sans-serif accent
 #fontchoice: quattrocento # A modern sans-serif font with classic serif accents
 #fontchoice: raleway # An elegant sans-serif font with bold sans-serif accents
-fontchoice: roboto # A clean sans-serif font with simple serif accents
+#fontchoice: roboto # A clean sans-serif font with simple serif accents
 #fontchoice: slab # A funky slab font with clean sans-serif accents
 #fontchoice: source # A modern serif font with clean sans-serif accents
+
+fontchoice: slab
 
 # Choose the COLORS you'd like to use.
 # You can see these color choices in action at https://digitalarcplatform.kalanicraig.com/docs/
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
-#colorchoice: dusk # Dusky purple and olive green
-#colorchoice: lavenderred # Purple-grey with orange-red
+#colorchoice: navy # Navy with bright teal and grey
 #colorchoice: leafgreen # Leafy green and medium brown
-#colorchoice: marigold # Near-black with marigold yellow
-colorchoice: navy # Navy with bright teal and grey
-#colorchoice: red # Black, crimson and grey
 #colorchoice: tan # Tan and deep brown with flame-bright orange
 #colorchoice: teal # Bright teal with bright orange-yellow accents
+#colorchoice: marigold # Near-black with marigold yellow
+#colorchoice: red # Black, crimson and grey
+#colorchoice: lavenderred # Purple-grey with orange-red
+#colorchoice: dusk # Dusky purple and olive green
+#colorchoice: whitewithaccent # White with an accent color (see below)
+
+colorchoice: marigold
 
 # If you chose white with an accent color, choose the ACCENT you'd like to use.
 # You can see these color choices in action at https://digitalarcplatform.kalanicraig.com/docs/
@@ -133,7 +128,8 @@ accentchoice: accent-darkred # Dark red
 ##############################################
 # ORGANIZING YOUR COLLECTION
 #---------------------
-# These collections take the basic files you put together for each item in your collection and display them with filtering buttons based on the tags, formats, and categories you include in each item file.
+# These collections take the basic files you put together for each item in your collection and auto-group and display them.
+# This takes each item in your archive collection and displays it
 collections:
   items:
     output: true
@@ -141,6 +137,23 @@ collections:
     contributor: true
     creator: true
     group: true
+  reception:
+    output: true
+    permalink: /:collection/:path:output_ext
+# If your collection items need to be grouped by person, family or some other group, uncomment this collection
+#  groups:
+#    output: true
+#    permalink: /:collection/:path:output_ext
+#    name: true
+#    folder: true
+#    sort_by: folder
+# If you have oral histories that go with groups, uncomment this collection:
+#  oralhistories:
+#    output: true
+#    permalink: /:collection/:path:output_ext
+#    name: true
+#    folder: true
+#    sort_by: folder
   authors:
     output: false
     name: true
@@ -151,33 +164,33 @@ collections:
 # MOST OF THESE THINGS DON'T NEED TO BE CHANGED.
 ##############################################
 
-
 # This URL is the main address for absolute links. This will usually be blank.
 url: 
-# This will usually be blank. If this archive will be in a folder (kalanicraig.com/digitalarcplatform/) instead of in its own main site (idahatiu.github.io) add that folder name here with a slash / in front of it (e.g. /communityarchive).
-baseurl: ""
+# If this archive will be in a folder (kalanicraig.com/digitalarcplatform/) instead of in its own main site (digitalarcplatform.github.io) add that folder name here. This will usually be blank. Use a forward slash before the folder name but not after, like so baseurl: '/foldername'
+baseurl: 
 
 # This URL points directly to the images directory. It needs a slash at the end.
 #
-# Example: <img src="{{ site.url }}{{ site.baseurl }}{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
+# Example: <img src="http://digitalarcplatform.kalanicraig.com/assets/img/" />
+# Markdown-Example for posts ![Image Text](http://digitalarcplatform.kalanicraig.com/assets/img/image.jpg)
 #
 urlimg: '/assets/img/'
 urlitemimg: '/assets/items/'
+urlreceptionimg: '/assets/reception/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 markdown : kramdown
 syntax_highlighter: rouge
 
+# This URL points directly to the images directory. It needs a slash at the end.
 exclude :
     - Gemfile
     - Gemfile.lock
     - CNAME
     - LICENSE
     - README.md
-    - pages/PagesOld
     - INSTALL.md
-    - screenshot.png
+    - vendor/bundle
 include: ['_pages']
 
 sass:
@@ -186,4 +199,4 @@ sass:
 
 plugins:
   - jekyll-seo-tag
-
+  
