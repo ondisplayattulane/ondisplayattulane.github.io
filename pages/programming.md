@@ -1,3 +1,9 @@
+--
+title: On Display Programming
+layout: homepage
+permalink: /programming
+--
+
 ### Exhibition Program series
 
 ## Opening reception for On Display: a Twenty-First Century Salon des Refusés
