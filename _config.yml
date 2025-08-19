@@ -107,7 +107,7 @@ fontchoice: slab
 #colorchoice: dusk # Dusky purple and olive green
 #colorchoice: whitewithaccent # White with an accent color (see below)
 
-colorchoice: lavenderred
+colorchoice: custom
 
 # If you chose white with an accent color, choose the ACCENT you'd like to use.
 # You can see these color choices in action at https://digitalarcplatform.kalanicraig.com/docs/
@@ -120,7 +120,7 @@ colorchoice: lavenderred
 #accentchoice: accent-brown # Warm brown
 #accentchoice: accent-green # Kelly green
 #accentchoice: accent-navy # Navy blue
-accentchoice: accent-blue # Medium blue
+#accentchoice: accent-blue # Medium blue
 #accentchoice: accent-bluegrey # Blue Grey
 #accentchoice: accent-purple # Grape purple
 #accentchoice: accent-grey # Mid Grey
