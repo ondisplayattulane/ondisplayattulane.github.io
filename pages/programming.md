@@ -1,9 +1,10 @@
---
-title: On Display Programming
+---
+title: Programming
 layout: homepage
 permalink: /programming
---
+---
 
+{{site.description}}
 ### Exhibition Program series
 
 ## Opening reception for On Display: a Twenty-First Century Salon des Refusés
