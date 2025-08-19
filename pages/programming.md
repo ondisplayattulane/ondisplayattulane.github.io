@@ -1,7 +1,7 @@
 ---
 title: Programming
 layout: blank
-permalink: /programming
+permalink: /programming/
 ---
 
 {{site.description}}
