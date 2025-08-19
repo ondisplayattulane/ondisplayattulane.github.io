@@ -13,7 +13,7 @@ As viewership continually expands and artists break away from conventions, how d
 Special thanks to Laura Richens, curator of the Carroll Gallery, for her guidance and support, and also to the Dorothy Beckemeyer Skau Fund with the Newcomb Institute for funding this exhibition and related programming.
 
 ## Programming
-A four-part program series accompanies the exhibition to reflect further on the show's theme through an artist panel, collage experience, clothing swap, and keynote talk. [Visit our Programming page](/programming/) to learn more.
+A four-part program series accompanies the exhibition to reflect further on the show's theme through an artist panel, collage experience, clothing swap, and keynote talk. Visit our [Programming page](/programming/) to learn more.
 
 Coordinated by:
 - Claudia González-Díaz
