@@ -4,7 +4,7 @@ layout: homepage
 permalink: /
 ---
   
-### Curatorial Statement
+## Curatorial Statement
 
 The jury of the 1863 Paris Salon rejected two-thirds of works submitted, deciding that many were avant-garde for French academic standards. Facing rejection, artists joined forces to protest. Their demands would be answered by Emperor Napoleon III, who granted them an alternative space to display their works: the Salon des Refusés. This began a tradition to showcase artworks excluded from the canon. Today, On Display revisits the concept of rejection, exploring broader boundaries that challenge what art “deserves” to be exhibited. 
 
@@ -15,10 +15,10 @@ Special thanks to Laura Richens, curator of the Carroll Gallery, for her guidanc
 ## Programming
 A four-part program series accompanies the exhibition to reflect further on the show's theme through an artist panel, collage experience, clothing swap, and keynote talk. Visit our [Programming page](/programming/) to learn more.
 
-Coordinated by:
+## Coordinated by:
 - Claudia González-Díaz
 
-Curated by:
+## Curated by:
 - Camila Aguayo
 - Hailee Corbin
 - Aine Powers
