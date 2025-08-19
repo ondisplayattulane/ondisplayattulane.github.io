@@ -1,6 +1,6 @@
 ---
 title: Programming
-layout: homepage
+layout: blank
 permalink: /programming
 ---
 
