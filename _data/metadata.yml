@@ -2,10 +2,13 @@
 # You can create your own metadata attributes by following the model below. Note that any new groups will require modification of the html layout for items in order to display correctly.
 fields: 
   title: "Title"
-  artist: "Artist"
-  year: "Year"
-  medium: "Medium"
-  dimensions: "Dimensions"
+  creator: "Artist"
+  contributor: "Artist"
+  creationdate: "Date"
+  type: "Medium"
   shortdesc: "Short Description"
+  group: "Group"
   categories: "Categories"
+  tags: "Tags"
+  teammember: "On Display Curatorial Team"
   contributorquote: "Contributor Quote"
