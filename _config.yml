@@ -90,7 +90,6 @@ google_g4_analytics_id:
 #fontchoice: roboto # A clean sans-serif font with simple serif accents
 #fontchoice: slab # A funky slab font with clean sans-serif accents
 #fontchoice: source # A modern serif font with clean sans-serif accents
-
 fontchoice: arsenal
 
 # Choose the COLORS you'd like to use.
@@ -106,7 +105,6 @@ fontchoice: arsenal
 #colorchoice: lavenderred # Purple-grey with orange-red
 #colorchoice: dusk # Dusky purple and olive green
 #colorchoice: whitewithaccent # White with an accent color (see below)
-
 colorchoice: custom
 
 # If you chose white with an accent color, choose the ACCENT you'd like to use.
@@ -123,7 +121,7 @@ colorchoice: custom
 #accentchoice: accent-blue # Medium blue
 #accentchoice: accent-bluegrey # Blue Grey
 #accentchoice: accent-purple # Grape purple
-#accentchoice: accent-grey # Mid Grey
+accentchoice: accent-grey # Mid Grey
 
 ##############################################
 # ORGANIZING YOUR COLLECTION
