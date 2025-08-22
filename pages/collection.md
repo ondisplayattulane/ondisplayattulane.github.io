@@ -4,6 +4,7 @@ layout: collection
 permalink: /collection
 ---
 
-Use the tags above to search by medium or thematic grouping, which are Figure, Environment, Self-rejected, Previously rejected, and Politics.
-
 {{site.description}}
+
+Use the tags below to make an inclusive search by medium or thematic grouping, which are Figure, Environment, Self-rejected, Previously rejected, and Politics. Use the checkboxes to make an exclusive search.
+
