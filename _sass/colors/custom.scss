@@ -1,0 +1,38 @@
+/** == ON DISPLAY Color Palette
+--neon-blue: #4d70ffff;
+--orange-wheel: #fd8010ff;
+--white: #ffffffff;
+--turkey-red: #ad1100ff;
+--british-racing-green: #014a2eff;
+**/
+
+$dark-top-bar: true;
+
+/* SCSS HEX */
+$neon-blue: #4d70ff;
+$orange-wheel: #fd8010;
+$white: #ffffff;
+$turkey-red: #ad1100;
+$british-racing-green: #014a2e;
+$white: #ffffff;
+
+/** main color scheme **/
+$main-text-color: $british-racing-green;
+$main-bg: $white;
+$main-link: darken($orange-wheel, 15%);
+$main-link-hover: $british-racing-green;
+$main-headers: darken($orange-wheel, 15%);
+
+/** dark-background color scheme **/
+$dark-text-color: $white;
+$dark-bg: $british-racing-green;
+$dark-link: lighten($turkey-red, 15%);
+$dark-link-hover: lighten($orange-wheel, 15%);
+$dark-headers: $turkey-red;
+
+/** accent-background color scheme **/
+$accent-text-color: $neon-blue;
+$accent-bg: lighten($turkey-red,15%);
+$accent-link: darken($british-racing-green, 15%);
+$accent-link-hover: darken($orange-wheel, 20%);
+$accent-headers: darken($british-racing-green, 15%);
