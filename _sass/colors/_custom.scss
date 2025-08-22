@@ -1,46 +1,38 @@
 /** == ON DISPLAY Color Palette
-/* CSS HEX */
 --neon-blue: #4d70ffff;
 --orange-wheel: #fd8010ff;
 --white: #ffffffff;
 --turkey-red: #ad1100ff;
 --british-racing-green: #014a2eff;
+**/
 
-/* CSS HSL */
---neon-blue: hsla(228, 100%, 65%, 1);
---orange-wheel: hsla(28, 98%, 53%, 1);
---white: hsla(0, 0%, 100%, 1);
---turkey-red: hsla(6, 100%, 34%, 1);
---british-racing-green: hsla(157, 97%, 15%, 1);
+$dark-top-bar: true;
 
 /* SCSS HEX */
-$neon-blue: #4d70ffff;
-$orange-wheel: #fd8010ff;
-$white: #ffffffff;
-$turkey-red: #ad1100ff;
-$british-racing-green: #014a2eff;
+$neon-blue: #4d70ff;
+$orange-wheel: #fd8010;
+$white: #ffffff;
+$turkey-red: #ad1100;
+$british-racing-green: #014a2e;
+$white: #ffffff;
 
-/* SCSS HSL */
-$neon-blue: hsla(228, 100%, 65%, 1);
-$orange-wheel: hsla(28, 98%, 53%, 1);
-$white: hsla(0, 0%, 100%, 1);
-$turkey-red: hsla(6, 100%, 34%, 1);
-$british-racing-green: hsla(157, 97%, 15%, 1);
+/** main color scheme **/
+$main-text-color: $british-racing-green;
+$main-bg: $white;
+$main-link: darken($orange-wheel, 15%);
+$main-link-hover: $british-racing-green;
+$main-headers: darken($orange-wheel, 15%);
 
-/* SCSS RGB */
-$neon-blue: rgba(77, 112, 255, 1);
-$orange-wheel: rgba(253, 128, 16, 1);
-$white: rgba(255, 255, 255, 1);
-$turkey-red: rgba(173, 17, 0, 1);
-$british-racing-green: rgba(1, 74, 46, 1);
+/** dark-background color scheme **/
+$dark-text-color: $white;
+$dark-bg: $british-racing-green;
+$dark-link: lighten($turkey-red, 15%);
+$dark-link-hover: lighten($orange-wheel, 15%);
+$dark-headers: $turkey-red;
 
-/* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-right: linear-gradient(90deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-bottom: linear-gradient(180deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-left: linear-gradient(270deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-top-right: linear-gradient(45deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-bottom-right: linear-gradient(135deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-top-left: linear-gradient(225deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-bottom-left: linear-gradient(315deg, #4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
-$gradient-radial: radial-gradient(#4d70ffff, #fd8010ff, #ffffffff, #ad1100ff, #014a2eff);
+/** accent-background color scheme **/
+$accent-text-color: $neon-blue;
+$accent-bg: lighten($turkey-red,15%);
+$accent-link: darken($british-racing-green, 15%);
+$accent-link-hover: darken($orange-wheel, 20%);
+$accent-headers: darken($british-racing-green, 15%);
