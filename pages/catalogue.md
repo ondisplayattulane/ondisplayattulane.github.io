@@ -1,7 +1,7 @@
 ---
-title: Our Collection
-layout: collection
-permalink: /collection
+title: On Display Catalogue
+layout: catalogue
+permalink: /catalogue
 ---
 
 {{site.description}}
