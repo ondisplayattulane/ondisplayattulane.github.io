@@ -1,7 +1,7 @@
 ---
 title: On Display Catalogue
 layout: collection
-permalink: /collection
+permalink: /catalogue
 ---
 
 {{site.description}}
